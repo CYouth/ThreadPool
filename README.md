@@ -11,10 +11,10 @@ public:
 ThreadPool(int);//构造函数，开启线程池数目，启动线程池  
 ~ThreadPool();//析构函数，处理资源  
 公开接口：  
-int addTask(Task *task);//添加任务  
+int addTask(Task * task);//添加任务  
 void stop();//停止线程池  
- int size();//任务数目  
-Task* take();//获取任务队列的第一个任务  
+int size();//任务数目  
+Task * take();//获取任务队列的第一个任务  
 
 ----------------  
 C++11 线程池  
