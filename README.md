@@ -17,9 +17,9 @@ void stop();//停止线程池
 Task* take();//获取任务队列的第一个任务  
 
 ----------------  
-C++11 线程池
-C++11全新的thread线程库实现多线程操作
-基于对象编程（std::function/std::bind）
+C++11 线程池  
+C++11全新的thread线程库实现多线程操作  
+基于对象编程（std::function/std::bind）  
 
 
 
